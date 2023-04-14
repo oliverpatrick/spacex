@@ -17,6 +17,9 @@ interface ISlideProps {
   gradientColor: GradientColorScheme;
 }
 
+// look at https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-linear-gradient
+// for ruler border styling for slide style two
+
 const SlideSection = ({ text }: { text: string }) => {
   let slideStyleTwo = <div className="divider" />;
 
@@ -29,28 +32,6 @@ const SlideSection = ({ text }: { text: string }) => {
     </section>
   );
 };
-
-function RulerBorder() {
-  function Measurement() {
-    return (
-      <div className="metre">
-        <div className="inch" />
-        <div className="inch" />
-        <div className="inch" />
-      </div>
-    );
-  }
-
-  return (
-    <div className="ruler-border">
-      <Measurement />
-      <Measurement />
-      <Measurement />
-      <Measurement />
-      <Measurement />
-    </div>
-  );
-}
 
 function Slide({
   image,
