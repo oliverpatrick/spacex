@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "./components/Layout";
 import { GradientColorScheme } from "./utils/gradientEnum";
+import SlideWrapper from "./components/Slide/SlideWrapper/SlideWrapper";
 
 const Hero = React.lazy(() => import("./components/Hero/Hero"));
 const Slide = React.lazy(() => import("./components/Slide/Slide"));
@@ -15,6 +16,7 @@ function App() {
           text="ORLANDO DUQUE"
           imageAlt="orlando"
         />
+        <SlideWrapper />
         <Slide
           image="./images/bg-slide-2.png"
           imageAlt="bg-slide-2"

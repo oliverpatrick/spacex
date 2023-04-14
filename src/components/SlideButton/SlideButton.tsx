@@ -7,7 +7,7 @@ interface ButtonProps {
 
 const SlideButton: React.FC<ButtonProps> = ({ onClick }) => {
   return (
-    <button className="button" onClick={onClick}>
+    <button className="slide-button" onClick={onClick}>
       <span className="chevron"></span>
     </button>
   );

@@ -16,6 +16,8 @@
   outline: 0.1rem solid white;
   outline-offset: -0.7em;
   height: calc(50vh - 4rem / 2);
+  background-size: 100%;
+  object-fit: cover;
 }
 
 .hero-text {

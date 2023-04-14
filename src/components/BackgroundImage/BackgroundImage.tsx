@@ -8,11 +8,11 @@ interface IBackgroundImageProps {
   height: string | number;
 }
 
-function BackgroundImage({
+const BackgroundImage: React.FC<IBackgroundImageProps> = ({
   imageSrc,
   imageAlt,
   height,
-}: IBackgroundImageProps) {
+}: IBackgroundImageProps) => {
   return (
     <img
       className="background-image"
@@ -22,6 +22,6 @@ function BackgroundImage({
       // style={{ objectPosition: "center", transform: "scale(1.7)" }}
     />
   );
-}
+};
 
 export default BackgroundImage;
