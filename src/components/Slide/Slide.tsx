@@ -51,7 +51,7 @@ function Slide({
         />
       )}
       <GradientOverlay height={gradientHeight} colorScheme={gradientColor} />
-      {/* <SlideSection text={text} /> */}
+      <SlideSection text={text} />
 
       {/* <section style={{ zIndex: 3 }}> */}
       {/* <h2></h2> */}
