@@ -1,0 +1,29 @@
+.button {
+  position: relative;
+  bottom: -14.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.1em solid white;
+  border-radius: 50%;
+  background-color: transparent;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 5;
+
+  &:hover {
+    border-color: #ccc;
+  }
+}
+
+.chevron {
+  margin: 0;
+  position: relative;
+  bottom: 0.3rem;
+  width: 1.3em;
+  height: 1.3em;
+  border: solid white;
+  border-width: 0 0.2em 0.2em 0;
+  transform: rotate(45deg);
+  margin: 0.3em;
+}

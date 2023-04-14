@@ -1,0 +1,32 @@
+.slide-section {
+  position: absolute;
+  width: 100%;
+  height: calc(100vh - 6.3rem);
+  outline: 0.1rem solid white;
+  outline-offset: -0.7em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  background: transparent;
+
+  .slide-text {
+    margin: 0;
+    font-size: 3rem;
+    color: #000;
+  }
+}
+
+.divider {
+  background-color: red;
+  width: 48pt;
+  height: 5pt;
+  margin: 30pt 0;
+}
+
+.ruler-border {
+  position: relative;
+  height: 70%;
+  width: 14px;
+}

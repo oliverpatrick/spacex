@@ -1,0 +1,13 @@
+.background-image {
+  position: relative;
+  width: 100%;
+  background-size: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+
+@media screen and (max-width: 767px) {
+  .background-image {
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,32 @@
+.hero {
+  position: relative;
+  color: white;
+  width: 100vw;
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: calc(50vh - 4rem / 2);
+}
+
+.hero-image {
+  width: 100%;
+  outline: 0.1rem solid white;
+  outline-offset: -0.7em;
+  height: calc(50vh - 4rem / 2);
+}
+
+.hero-text {
+  position: absolute;
+  text-align: center;
+  margin-bottom: 5rem;
+  font-size: 5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .hero-text {
+    font-size: 2rem;
+  }
+}
