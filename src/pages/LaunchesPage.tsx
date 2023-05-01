@@ -17,6 +17,8 @@ function LaunchesPage({}: Props) {
     queryFn: () =>
       fetch("https://api.spacexdata.com/v4/launches").then((res) => res.json()),
   });
+
+  // change to axios and make hook
   // const {
   //   data: launches,
   //   isLoading,
