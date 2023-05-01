@@ -1,0 +1,59 @@
+ul.inline {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+  li {
+    display: inline-block;
+    margin-left: 0;
+    padding: 10px;
+    border-bottom: 2px solid #eee;
+    transition: all 0.5s;
+    font-family: sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    color: #aaa;
+    &.selected {
+      border-bottom: 2px solid #337ab7;
+      color: #444;
+    }
+  }
+}
+
+// /* styles for the Tab component */
+// .tab {
+//   display: inline-block;
+//   padding: 0.5rem 1rem;
+//   cursor: pointer;
+//   border: 1px solid #ccc;
+//   border-bottom: none;
+//   border-radius: 0.25rem 0.25rem 0 0;
+// }
+
+// .active.tab {
+//   background-color: #fff;
+//   border-color: #ccc;
+//   border-bottom: none;
+// }
+
+// /* styles for the Tabs component */
+// .tabs {
+//   border: 1px solid #ccc;
+//   border-radius: 0.25rem;
+// }
+
+// .tab-list {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 0.5rem;
+//   border-bottom: 1px solid #ccc;
+// }
+
+// .tab-content {
+//   padding: 1rem;
+// }

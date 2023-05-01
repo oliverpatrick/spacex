@@ -1,5 +1,5 @@
 {
-  "name": "tag-heuer",
+  "name": "space-x",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.11.0",
     "sass": "^1.62.0"
   },
   "devDependencies": {
